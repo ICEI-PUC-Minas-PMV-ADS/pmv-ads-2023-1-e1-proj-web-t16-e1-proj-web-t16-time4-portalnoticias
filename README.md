@@ -1,21 +1,23 @@
-# TÍTULO DO PROJETO
+# Agregador de Notícias
 
-`CURSO`
+`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`2023/1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* João Ricardo Ferreira Góis
+* Luca Barbosa Muller
+* Pablo Matoso Nunes
+* Pedro Henrique Aguilar de Almeida
+* Pedro Henrique Batista Costa
+* Willian Pereira de Aquino Júnior
 
-## Orientador
+## Wagner Cipriano da Silva
 
 * Nome completo do professor 1
 
