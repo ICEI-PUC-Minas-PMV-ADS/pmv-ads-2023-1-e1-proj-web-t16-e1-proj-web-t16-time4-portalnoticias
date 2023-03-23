@@ -1,6 +1,7 @@
 # Referências
 
 (https://hotmart.com/pt-br/blog/publico-alvo)
+
 https://negociossc.com.br/
 
 > **Links Úteis**:
