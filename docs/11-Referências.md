@@ -1,6 +1,7 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+(https://hotmart.com/pt-br/blog/publico-alvo)
+https://negociossc.com.br/
 
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
