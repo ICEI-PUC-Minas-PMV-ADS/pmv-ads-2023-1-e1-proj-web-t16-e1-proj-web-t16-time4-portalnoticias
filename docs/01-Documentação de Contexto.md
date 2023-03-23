@@ -34,13 +34,10 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+## Público-Alvo
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Mesmo que pessoas de todas idades possam se beneficiar de um portal de notícias unificado, é sabido que grande parte dos jovens não tem interesse nesse tipo de aplicação; assim como pessoas mais velhas, em sua maioria, não tem muito costume com navegação na internet, com exceção de app's de mensagem instantânea e redes sociais em geral. Um exemplo disso, é a audiência do G1 de Santa Catarina, que possui uma audiência que varia dos 18 até acima dos 55 anos, mas é composta majoritariamente por homens entre 25 e 34 anos.
+
+Sendo assim, essa aplicação busca atingir pessoas na faixa entre 20 e 40 anos de idade, independente de gênero, sexualidade ou classe social. Usuários que buscam estar atualizados sobre seus tópicos de interesse sem ter o trabalho de ficar navegando em diversas plataformas de notícia e fazem uso frequente de dispositivos móveis ou computadores, de forma que as nótícias sejam expostas por ordem de relevância.
+
