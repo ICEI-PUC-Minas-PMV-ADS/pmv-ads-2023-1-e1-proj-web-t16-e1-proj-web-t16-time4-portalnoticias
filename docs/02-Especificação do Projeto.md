@@ -7,19 +7,17 @@ Tendo em vista a rotina agitada e com limitações de tempo, o projeto tem como 
 ## Personas
 
 
-As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem:
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Lucas Souza possui 25 anos, é editor de vídeo autônomo. Pensa em mudar de carreira para a área de animação 3d, estudando e praticando sobre o assunto na parte da noite. No tempo livre gosta de assistir séries e filmes, jogar video-game e sair para correr. Utiliza as redes LinkedIN e Instagram. Se interessa em notícias relacionadas a política, tecnologia e cultura pop.
+[imagem]
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Cláudia Moura possui 39 anos, é advogada e mãe de 2 filhos. Possui alta carga de trabalho, além das responsabilidades como mãe. No tempo livre, gosta de passar um tempo com a família, ir a praia e ir ao cinema. Não utiliza redes sociais, apenas aplicativos de mensagem instantânea. Se interessa por notícias relacionadas a política, cultura e acontecimentos diários.
+[imagem]
+
+Igor Silva 30 anos, formado em logística, trabalha na área durante o dia e estuda para concursos na parte da noite. No tempo livre, gosta de jogar e assistir futebol, acompanhar canais no Youtube e ir a shows de música. Utiliza o Facebook, Instagram e Youtube. Se interessa por notícias relacionadas a futebol, eventos, concursos públicos e acontecimentos diários.
+[imagem]
+
 
 ## Histórias de Usuários
 
@@ -27,8 +25,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Lucas Souza         | Notícias Relacionadas às minhas áreas de interesse    | Não perder tempo com notícias que não me interessam|
+|Lucas Souza         | Sistema de "likes"                 | Priorizar as notícias e fontes de acordo com sua relevância         |
+|Igor Silva          | Notícias de todos os tipos e fontes| Unificar todos seus interesses em um único espaço, sem a necessidade de acessar vários portais  |
+|Igor Silva          | Registrar minhas tarefas           | |
+|Cláudia Moura       | Acessar o site pelo celular ou computador  | Aproveitar momentos de ócio para acompanhar as notícias, independente de aonde estiver      |
+|Cláudia Moura       | Adicionar notícias ao site            | Compartilhar notícias de seu interesse com usuários que tenham gostos parecidos |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
