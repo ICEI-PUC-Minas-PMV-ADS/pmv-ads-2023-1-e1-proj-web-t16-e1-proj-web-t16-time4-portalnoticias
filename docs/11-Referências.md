@@ -1,7 +1,7 @@
 # Referências
 
 (https://hotmart.com/pt-br/blog/publico-alvo)
-
+https://resultadosdigitais.com.br/marketing/persona-o-que-e/
 https://negociossc.com.br/
 https://rockcontent.com/br/blog/personas/
 
