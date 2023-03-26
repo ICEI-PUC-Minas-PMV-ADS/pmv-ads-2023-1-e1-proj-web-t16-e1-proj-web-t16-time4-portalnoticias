@@ -26,9 +26,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Lucas Souza         | Notícias Relacionadas às minhas áreas de interesse    | Não perder tempo com notícias que não me interessam|
-|Lucas Souza         | Sistema de "likes"                 | Priorizar as notícias e fontes de acordo com sua relevância         |
+|Lucas Souza         | Sistema de "likes"                 | Ranquear as notícias de acordo com minhas preferências         |
 |Igor Silva          | Notícias de todos os tipos e fontes| Unificar todos seus interesses em um único espaço, sem a necessidade de acessar vários portais  |
-|Igor Silva          | Registrar minhas tarefas           | |
+|Igor Silva          | Filtro de notícias         | Buscar as notícias que me interessam em determinado momento |
 |Cláudia Moura       | Acessar o site pelo celular ou computador  | Aproveitar momentos de ócio para acompanhar as notícias, independente de aonde estiver      |
 |Cláudia Moura       | Adicionar notícias ao site            | Compartilhar notícias de seu interesse com usuários que tenham gostos parecidos |
 
