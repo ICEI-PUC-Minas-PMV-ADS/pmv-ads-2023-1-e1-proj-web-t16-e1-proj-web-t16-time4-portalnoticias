@@ -10,7 +10,7 @@ Tendo em vista a rotina agitada e com limitações de tempo, o projeto tem como 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem:
 
 Lucas Souza possui 25 anos, é editor de vídeo autônomo. Pensa em mudar de carreira para a área de animação 3d, estudando e praticando sobre o assunto na parte da noite. No tempo livre gosta de assistir séries e filmes, jogar video-game e sair para correr. Utiliza as redes LinkedIN e Instagram. Se interessa em notícias relacionadas a política, tecnologia e cultura pop.
-[imagem]
+(img/lucas.png)
 
 Cláudia Moura possui 39 anos, é advogada e mãe de 2 filhos. Possui alta carga de trabalho, além das responsabilidades como mãe. No tempo livre, gosta de passar um tempo com a família, ir a praia e ir ao cinema. Não utiliza redes sociais, apenas aplicativos de mensagem instantânea. Se interessa por notícias relacionadas a política, cultura e acontecimentos diários.
 [imagem]
