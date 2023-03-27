@@ -5,6 +5,7 @@
 > - https://negociossc.com.br/
 > - https://rockcontent.com/br/blog/personas/
 > - https://www.atlassian.com/br/agile/project-management/user-stories
+> - https://codificar.com.br/requisitos-funcionais-nao-funcionais/
 
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
