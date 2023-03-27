@@ -13,10 +13,10 @@ Lucas Souza possui 25 anos, é editor de vídeo autônomo. Pensa em mudar de car
 ![lucas](img/lucas.png)
 
 Cláudia Moura possui 39 anos, é advogada e mãe de 2 filhos. Possui alta carga de trabalho, além das responsabilidades como mãe. No tempo livre, gosta de passar um tempo com a família, ir a praia e ir ao cinema. Não utiliza redes sociais, apenas aplicativos de mensagem instantânea. Se interessa por notícias relacionadas a política, cultura e acontecimentos diários.
-![lucas](img/claudia.png)
+![claudia](img/claudia.png)
 
 Igor Silva 30 anos, formado em logística, trabalha na área durante o dia e estuda para concursos na parte da noite. No tempo livre, gosta de jogar e assistir futebol, acompanhar canais no Youtube e ir a shows de música. Utiliza o Facebook, Instagram e Youtube. Se interessa por notícias relacionadas a futebol, eventos, concursos públicos e acontecimentos diários.
-![lucas](img/igor.png)
+![igor](img/igor.png)
 
 
 ## Histórias de Usuários
@@ -41,8 +41,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Ao clicar na notícia, o site deve redirecionar o usuário para a fonte da mesma | ALTA | 
+|RF-002| O usuário deve ser capaz de filtrar as notícias   | MÉDIA |
+|RF-003| Sistema de "likes" a fim de exibir mais notícias daquele tipo ao usuário | BAIXA | 
+|RF-004| O usuário deve ser capaz de alimentar o site com notícias de sua preferência | ALTA |
+|RF-005| O site deve ter um sistema de "tags"  | MÉDIA |
+|RF-006| O site deve exibir o usuário que postou a notícia  | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -50,22 +54,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| O site processar interações do usuário em no máximo 3 segundos |  BAIXA | 
+|RNF-003| O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub, Heroku)  | MÉDIA | 
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  MÉDIA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+
 
 ## Restrições
 
@@ -73,12 +67,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue até o final do semestre (12/06/2022 |
+|02| A aplicação deve ser desenvolvida inteiramente com módulos Front-End        |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
