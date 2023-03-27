@@ -1,5 +1,9 @@
 # Especificações do Projeto
 
+Atualmente as notícias e informações vem sendo itens essenciais no dia a dia das pessoas e  organizações. As informações corretas, precisas e de fácil observação são fundamentais para se manter atualizado. 
+
+Com o aumento do número de plataformas como sites, fóruns, blogs e jornais as pessoas acabaram perdendo o interesse em procurar novas notícias e informações pois muitas das vezes acabam encontrando inúmeras notícias que não tem haver com seus interesses ou notícias enganosas. Através de uma pesquisa realizada pelo jornal nexo em 2022,” a natureza e o tom dos temas, além da repetição de certos assuntos em diferentes veículos foram apontadas como as principais razões para o comportamento”.
+
 
 Tendo em vista a rotina agitada e com limitações de tempo, o projeto tem como objetivo atender pessoas que objetivam se informar e compartilhar informações de diferentes fontes, sem que seja necessário acessar diversos portais de notícia e trazendo mais praticidade para essa atividade.
 
