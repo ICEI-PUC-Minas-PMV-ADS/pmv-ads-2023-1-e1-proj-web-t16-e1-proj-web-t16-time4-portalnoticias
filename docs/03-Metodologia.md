@@ -10,7 +10,7 @@ Os artefatos no projeto são desenvolvidos utilizando diversas plataformas e a r
 | Repositório de código fonte    |  GitHub  |   https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time4-portalnoticias                                                             |
 | Documentos do projeto          |  GitHub  |     https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time4-portalnoticias                                                           |
 | Projeto de interface           |  Figma   |       https://www.figma.com/proto/tA1e1KaNdzU4UhxvCVDUpj/projeto_front_end_puc_wireframe_ads1?page-id=1%3A401&node-id=1-550&starting-point-node-id=1%3A550                                                         |
-| Gerenciamento do Projeto       | WhatsApp |     https://chat.whatsapp.com/LfU8ny38HsO44D22NvzlDL                                                           |
+| Gerenciamento do Projeto       | Trello |     https://trello.com/invite/b/gWoeWLCr/ATTI2a5b0b9b055acda06012f6c2a108699fE946F6B2/ads1-portal-de-noticias                                                           |
 
 
 ## Gerenciamento de Projeto
