@@ -6,16 +6,20 @@ Com o aumento do número de plataformas como sites, fóruns, blogs e jornais as 
 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Os portais de notícias enfrentam vários problemas hoje em dia, devido às mudanças nas preferências do público, nas tecnologias de distribuição de conteúdo e nas formas de monetização do jornalismo. Alguns dos principais problemas enfrentados pelos portais de notícias incluem:
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Diminuição da receita publicitária: Com o aumento do uso de bloqueadores de anúncios e a mudança dos gastos publicitários para plataformas de mídia social, muitos portais de notícias têm enfrentado uma queda nas receitas de publicidade. Isso torna mais difícil para eles financiarem sua operação e produzirem conteúdo de qualidade.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Disputa com as redes sociais: As redes sociais, como Facebook e Twitter, se tornaram cada vez mais populares como fonte de notícias, competindo diretamente com os portais de notícias. Isso significa que muitos usuários acessam notícias por meio das redes sociais, em vez de visitar diretamente os portais de notícias.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Problemas com a desinformação: A disseminação de notícias falsas e a manipulação da informação se tornaram um problema crescente na era digital, o que pode levar os leitores a questionarem a credibilidade dos portais de notícias.
+
+Concorrência entre portais de notícias: Com um grande número de portais de notícias disponíveis, os usuários têm várias opções de onde acessar notícias, o que pode dificultar a fidelização de uma audiência.
+
+Pressão para produzir conteúdo viral: Devido à competição intensa pela atenção do público, muitos portais de notícias podem ser pressionados a produzir conteúdo sensacionalista ou viral, em vez de se concentrar em notícias importantes e bem apuradas.
+
+Para lidar com esses desafios, muitos portais de notícias estão buscando novas formas de se adaptar, como diversificar suas fontes de receita, investir em tecnologia e inovação, e desenvolver estratégias para combater a desinformação e produzir conteúdo de qualidade.
+
 
 ## Objetivos
 
