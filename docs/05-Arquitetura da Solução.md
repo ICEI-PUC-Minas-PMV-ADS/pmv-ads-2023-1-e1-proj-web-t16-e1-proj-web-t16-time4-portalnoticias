@@ -1,62 +1,37 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+A aplicação se trata de um portal de notícias onde os usuários irão enviar os links das nóticas e estas serão exibidas em um ambiente externo a aplicação. Desta forma os dados que deverão ser guardados serão os dados de usuários, nome da notícia e link da notícia.
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+Os componentes estão relacionados da seguinte maneira.
 
-Exemplo: 
-
-Os componentes que fazem parte da solução são apresentados na Figura XX.
-
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+![arquitetura_solucao](img/arquitetura_solucao.png)
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
+     - **Usuários** - resgistro de usuários; 
+     - **Nomes das notícias** - registro dos nomes que os usuários atribuirão as notícias postadas;
+     - **Links das notícias** - resgistro do link em que a notícia postada se encontra.
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
-
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+## Diagrama de Solução
 
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
-que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+que o usuário entra na plataforma, ele tem acesso a todas as notícias já postadas. Podendo assim somente acessar notícias.
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
+Caso ele opte em fazer parte da comunidade e passar enviar notícas sobre tecnologia que ele julgue interessante, ele primeiramente precisará realizar o log in na aplicação. Caso ele ainda não tenha, precisará inserir o nome, e-mail e senha para assim realizar seu cadastro.
 
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
+Após o usuário realizar o log in na aplicação, o cabeçalho terá uma leva alteração onde irá ser exibido o nome completo do usuário (informação inserida no momento do cadastro), um botão de log out caso ele queira sair da aplicação e um botão para ele enviar notícias.
 
-![Exemplo de UserFlow](img/userflow.jpg)
+Caso ele clique no botão de enviar notícias, ele deverá inserir o nome da notícia que ele esta enviando e o link da notícia.
 
+Essa notícia então passará a ser exibida na tela principal e todos os usuários terão acesso a ela.
+
+![projeto_front_end_puc_wireframe_ads1](img/projeto_front_end_puc_wireframe_ads1.png)
 
 ## Tecnologias Utilizadas
 
