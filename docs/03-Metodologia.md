@@ -28,10 +28,9 @@ A distribuição da equipe foi feita da seguinte forma:
    
    - **Equipe de Design:** Pedro Batista
 
-
-
-### 
-
+ O quadro foi feito utilizando a ferramenta Trello para desenvolver, manter a organização e acompanhamento do projeto: 
+ 
+> - ![trello](img/trello.png)
 
 
 
