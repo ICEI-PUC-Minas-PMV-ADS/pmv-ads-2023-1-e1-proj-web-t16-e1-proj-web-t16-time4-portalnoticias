@@ -58,7 +58,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para ser compatível com dispositivos móveis | MÉDIA | 
-|RNF-002| O site processar interações do usuário em no máximo 3 segundos |  BAIXA | 
+|RNF-002| O site deve processar interações do usuário em no máximo 3 segundos |  BAIXA | 
 |RNF-003| O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub, Heroku)  | MÉDIA | 
 |RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  MÉDIA | 
 
