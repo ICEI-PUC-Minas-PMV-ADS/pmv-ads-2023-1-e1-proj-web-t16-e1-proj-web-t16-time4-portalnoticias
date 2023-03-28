@@ -1,4 +1,4 @@
-# Especificações do Projeto
+# Especificação do Projeto
 
 Atualmente as notícias e informações vem sendo itens essenciais no dia a dia das pessoas e  organizações. As informações corretas, precisas e de fácil observação são fundamentais para se manter atualizado. 
 
