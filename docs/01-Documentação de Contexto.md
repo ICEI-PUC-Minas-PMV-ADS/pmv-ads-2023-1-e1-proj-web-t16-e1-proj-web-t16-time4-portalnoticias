@@ -28,7 +28,7 @@ O objetivo do nosso site de notícias é fornecer um espaço para os usuários s
 
 ## Justificativa
 
-Uma justificativa para criar um site de notícias em que os usuários possam sugerir notícias é que isso proporcionaria uma experiência mais completa e diversa para os leitores. Quando os usuários podem sugerir notícias, o site se torna mais abrangente e capaz de cobrir uma variedade maior de assuntos.
+A criação do programa  deve-se ao fato de que os usuários possam sugerir notícias, ajudando a  proporcionar uma experiência mais completa e diversa para os leitores. Quando os usuários podem sugerir notícias, o site se torna mais abrangente e capaz de cobrir uma variedade maior de assuntos.
 
 Além disso, ao permitir que os usuários sugiram notícias, o site pode se tornar mais engajador e interativo. Os leitores podem se sentir mais conectados com a plataforma e com outros leitores, já que têm a oportunidade de compartilhar notícias que acham relevantes e discutir essas notícias com outras pessoas.
 
