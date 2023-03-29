@@ -1,8 +1,8 @@
 # Especificação do Projeto
 
-Atualmente as notícias e informações vem sendo itens essenciais no dia a dia das pessoas e  organizações. As informações corretas, precisas e de fácil observação são fundamentais para se manter atualizado. 
+Atualmente as notícias e informações são itens essenciais no dia a dia das pessoas e  organizações. As informações corretas, precisas e de fácil observação são fundamentais para se manter atualizado. 
 
-Com o aumento do número de plataformas como sites, fóruns, blogs e jornais as pessoas acabaram perdendo o interesse em procurar novas notícias e informações pois muitas das vezes acabam encontrando inúmeras notícias que não tem haver com seus interesses ou notícias enganosas. Através de uma pesquisa realizada pelo jornal nexo em 2022,” a natureza e o tom dos temas, além da repetição de certos assuntos em diferentes veículos foram apontadas como as principais razões para o comportamento”.
+Com o aumento do número de plataformas como sites, fóruns, blogs e jornais as pessoas acabaram perdendo o interesse em procurar novas notícias e informações pois muitas das vezes acabam encontrando inúmeras notícias que não tem relação com seus interesses, ou notícias enganosas.
 
 
 Tendo em vista a rotina agitada e com limitações de tempo, o projeto tem como objetivo atender pessoas que objetivam se informar e compartilhar informações de diferentes fontes, sem que seja necessário acessar diversos portais de notícia e trazendo mais praticidade para essa atividade.
@@ -16,10 +16,10 @@ As personas levantadas durante o processo de entendimento do problema são apres
 Lucas Souza possui 25 anos, é editor de vídeo autônomo. Pensa em mudar de carreira para a área de animação 3d, estudando e praticando sobre o assunto na parte da noite. No tempo livre gosta de assistir séries e filmes, jogar video-game e sair para correr. Utiliza as redes LinkedIN e Instagram. Se interessa em notícias relacionadas a política, tecnologia e cultura pop.
 > - ![lucas](img/lucas1.png)
 
-Cláudia Moura possui 39 anos, é advogada e mãe de 2 filhos. Possui alta carga de trabalho, além das responsabilidades como mãe. No tempo livre, gosta de passar um tempo com a família, ir a praia e ir ao cinema. Não utiliza redes sociais, apenas aplicativos de mensagem instantânea. Se interessa por notícias relacionadas a política, cultura e acontecimentos diários.
+Cláudia Moura possui 35 anos, é programadora e mãe de 2 filhos. Possui alta carga de trabalho, além das responsabilidades como mãe. No tempo livre, gosta de passar um tempo com a família, ir a praia e ao cinema. Não utiliza redes sociais, apenas aplicativos de mensagem instantânea. Se interessa por notícias relacionadas a política, tecnologia e acontecimentos diários.
 > - ![claudia](img/claudia1.png)
 
-Igor Silva 30 anos, formado em logística, trabalha na área durante o dia e estuda para concursos na parte da noite. No tempo livre, gosta de jogar e assistir futebol, acompanhar canais no Youtube e ir a shows de música. Utiliza o Facebook, Instagram e Youtube. Se interessa por notícias relacionadas a futebol, eventos, concursos públicos e acontecimentos diários.
+Igor Silva 30 anos, formado em logística, trabalha na área durante o dia e estuda programação na parte da noite, a fim de mudar de carreira. No tempo livre, gosta de jogar e assistir futebol, acompanhar canais no Youtube e ir a shows de música. Utiliza o Facebook, Instagram e Youtube. Se interessa por notícias relacionadas a futebol, eventos, tecnologia e acontecimentos diários.
 > - ![igor](img/igor1.png)
 
 
@@ -37,6 +37,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Cláudia Moura       | Adicionar notícias ao site            | Compartilhar notícias de seu interesse com usuários que tenham gostos parecidos |
 
 
+
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
@@ -49,9 +50,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| O usuário deve ser capaz de filtrar as notícias   | MÉDIA |
 |RF-003| Sistema de "likes" a fim de exibir mais notícias daquele tipo ao usuário | BAIXA | 
 |RF-004| O usuário deve ser capaz de alimentar o site com notícias de sua preferência | ALTA |
-|RF-005| O site deve ter um sistema de "tags"  | MÉDIA |
+|RF-005| O site deve ter um sistema de "tags"  | BAIXA |
 |RF-006| O site deve exibir o usuário que postou a notícia  | MÉDIA |
-
+|RF-007| Sistema de "Mais lidos da semana"  | MÉDIA |
+|RF-008| O site deve ter um sistema de recomendação, de acordo com as notícias que o usuário consome  | BAIXA |
 
 ### Requisitos não Funcionais
 
