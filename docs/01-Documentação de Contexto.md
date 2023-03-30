@@ -6,20 +6,7 @@ Com o aumento do número de plataformas como sites, fóruns, blogs e jornais as 
 
 
 ## Problema
-Os portais de notícias enfrentam vários problemas hoje em dia, devido às mudanças nas preferências do público, nas tecnologias de distribuição de conteúdo e nas formas de monetização do jornalismo. Alguns dos principais problemas enfrentados pelos portais de notícias incluem:
-
-Diminuição da receita publicitária: Com o aumento do uso de bloqueadores de anúncios e a mudança dos gastos publicitários para plataformas de mídia social, muitos portais de notícias têm enfrentado uma queda nas receitas de publicidade. Isso torna mais difícil para eles financiarem sua operação e produzirem conteúdo de qualidade.
-
-Disputa com as redes sociais: As redes sociais, como Facebook e Twitter, se tornaram cada vez mais populares como fonte de notícias, competindo diretamente com os portais de notícias. Isso significa que muitos usuários acessam notícias por meio das redes sociais, em vez de visitar diretamente os portais de notícias.
-
-Problemas com a desinformação: A disseminação de notícias falsas e a manipulação da informação se tornaram um problema crescente na era digital, o que pode levar os leitores a questionarem a credibilidade dos portais de notícias.
-
-Concorrência entre portais de notícias: Com um grande número de portais de notícias disponíveis, os usuários têm várias opções de onde acessar notícias, o que pode dificultar a fidelização de uma audiência.
-
-Pressão para produzir conteúdo viral: Devido à competição intensa pela atenção do público, muitos portais de notícias podem ser pressionados a produzir conteúdo sensacionalista ou viral, em vez de se concentrar em notícias importantes e bem apuradas.
-
-Para lidar com esses desafios, muitos portais de notícias estão buscando novas formas de se adaptar, como diversificar suas fontes de receita, investir em tecnologia e inovação, e desenvolver estratégias para combater a desinformação e produzir conteúdo de qualidade.
-
+Com o alta quantidade de plataformas de noticias os usuários precisam ficar pesquisando em sites diferentes para saber sobre as notícias, sendo assim isso pode ser um processo demorado e frustrante. O usuário pode precisar visitar vários sites diferentes para encontrar as informações que precisa, o que pode levar a uma perda de tempo significativa. Além disso, pode ser difícil determinar quais fontes de notícias são confiáveis e imparciais, o que pode levar a uma falta de confiança nas informações encontradas. Outra preocupação é que o usuário possa perder informações importantes ou relevantes se não tiver tempo para pesquisar em todos os sites relevantes. Em resumo, a falta de conveniência e confiabilidade pode tornar o processo de encontrar notícias uma tarefa tediosa e difícil para o usuário. Além disso os usuários encontram muitas noticias que não possuem interesse.
 
 ## Objetivos
 
