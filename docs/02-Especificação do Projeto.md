@@ -17,7 +17,7 @@ Lucas Souza possui 25 anos, é editor de vídeo autônomo. Pensa em mudar de car
 > - ![lucas](img/lucas1.png)
 
 Cláudia Moura possui 35 anos, é programadora e mãe de 2 filhos. Possui alta carga de trabalho, além das responsabilidades como mãe. No tempo livre, gosta de passar um tempo com a família, ir a praia e ao cinema. Não utiliza redes sociais, apenas aplicativos de mensagem instantânea. Se interessa por notícias relacionadas a política, tecnologia e acontecimentos diários.
-> - ![claudia](img/claudia1.png)
+> - ![claudia](img/claudia2.png)
 
 Igor Silva 30 anos, formado em logística, trabalha na área durante o dia e estuda programação na parte da noite, a fim de mudar de carreira. No tempo livre, gosta de jogar e assistir futebol, acompanhar canais no Youtube e ir a shows de música. Utiliza o Facebook, Instagram e Youtube. Se interessa por notícias relacionadas a futebol, eventos, tecnologia e acontecimentos diários.
 > - ![igor](img/igor1.png)
