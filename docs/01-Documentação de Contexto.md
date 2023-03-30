@@ -6,7 +6,7 @@ Com o aumento do número de plataformas como sites, fóruns, blogs e jornais as 
 
 
 ## Problema
-Com o alta quantidade de plataformas de noticias os usuários precisam ficar pesquisando em sites diferentes para saber sobre as notícias, sendo assim isso pode ser um processo demorado e frustrante. O usuário pode precisar visitar vários sites diferentes para encontrar as informações que precisa, o que pode levar a uma perda de tempo significativa. Além disso, pode ser difícil determinar quais fontes de notícias são confiáveis e imparciais, o que pode levar a uma falta de confiança nas informações encontradas. Outra preocupação é que o usuário possa perder informações importantes ou relevantes se não tiver tempo para pesquisar em todos os sites relevantes. Em resumo, a falta de conveniência e confiabilidade pode tornar o processo de encontrar notícias uma tarefa tediosa e difícil para o usuário. Além disso os usuários encontram muitas noticias que não possuem interesse.
+Com a alta quantidade de plataformas de noticias os usuários precisam ficar pesquisando em sites diferentes para saber sobre as notícias, sendo assim isso pode ser um processo demorado e frustrante. O usuário pode precisar visitar vários sites diferentes para encontrar as informações que precisa, o que pode levar a uma perda de tempo significativa. Além disso, pode ser difícil determinar quais fontes de notícias são confiáveis e imparciais, o que pode levar a uma falta de confiança nas informações encontradas. Outra preocupação é que o usuário possa perder informações importantes ou relevantes se não tiver tempo para pesquisar em todos os sites relevantes. Em resumo, a falta de conveniência e confiabilidade pode tornar o processo de encontrar notícias uma tarefa tediosa e difícil para o usuário. Além disso os usuários encontram muitas noticias que não possuem interesse.
 
 ## Objetivos
 
@@ -20,4 +20,5 @@ A criação do programa  deve-se ao fato de que os usuários possam sugerir not�
 Além disso, ao permitir que os usuários sugiram notícias, o site pode se tornar mais engajador e interativo. Os leitores podem se sentir mais conectados com a plataforma e com outros leitores, já que têm a oportunidade de compartilhar notícias que acham relevantes e discutir essas notícias com outras pessoas.
 
 ## Público-Alvo
-
+composto por pessoas que estão interessadas em tecnologia, gadgets e inovações. Esse público inclui desde entusiastas de tecnologia até profissionais da área, como programadores, desenvolvedores de software e engenheiros de sistemas.
+Esses usuários estão sempre buscando se manter atualizados sobre as tendências e avanços tecnológicos mais recentes, e valorizam a rapidez e a precisão das informações compartilhadas. Eles estão dispostos a dedicar tempo e esforço para pesquisar e descobrir as notícias mais relevantes, mas também desejam ter acesso a uma ampla variedade de fontes e perspectivas.
