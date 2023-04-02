@@ -17,9 +17,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Pedro Henrique Batista Costa
 * Willian Pereira de Aquino Júnior
 
-## Wagner Cipriano da Silva
+## Orientador
 
-* Nome completo do professor 1
+* Wagner Cipriano da Silva
 
 ## Instruções de utilização
 
