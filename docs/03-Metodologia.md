@@ -30,7 +30,7 @@ A distribuição da equipe foi feita da seguinte forma:
 
  O quadro foi feito utilizando a ferramenta Trello para desenvolver, manter a organização e acompanhamento do projeto: 
  
-> - ![trello](img/trello.png)
+> - ![trello](img/trello_16-04-23.png)
 
 
 
