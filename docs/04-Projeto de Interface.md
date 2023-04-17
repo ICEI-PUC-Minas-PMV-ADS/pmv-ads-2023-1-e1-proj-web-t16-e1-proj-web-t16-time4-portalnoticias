@@ -5,7 +5,7 @@ O projeto busca atender as espectivas do usuário de maneira simples e dinamica,
 
 ## User Flow
 
-![UserFlow](img/projeto_front_end_puc_wireframe_ads1.png)
+![UserFlow](img/wireframes/projeto_front_end_puc_wireframe_ads1.png)
 
 ## Wireframes
 
@@ -14,43 +14,43 @@ Conforme o fluxo do usuário apresentado no item anterior, a interface é dividi
 * Cabeçalho - Local onde encontramos a logo e o menu de navegação principal;
 * Conteúdo - Local onde encontramos da tela em questão.
 	
-### Tela - Home-Page
+### Tela Home Page
 
 Tela principal onde o usuário encontrará as últimas notícias postadas. Porém o usuário somente conseguirá postar alguma notícia depois de fazer seu log in.
 
-![home_without_user_logged_in](img/Home_without_user_logged_in.png)
+![home_without_user_logged_in](img/wireframes/Home_without_user_logged_in.png)
 
 
-### Tela - Login-Page
+### Tela de log in
 
 Tela onde o usuário fará seu log in no site ou caso ainda não o tenha, criará um novo usuário.
 
-![login_page](img/Login_page.png)
+![login_page](img/wireframes/Login_page.png)
 
 
-### Tela - Novo_usuário-Page
+### Tela de novo usuário
 
 Tela onde o usuário irá se cadastrar, caso ainda não seja cadastrado.
 
-![New_account_page](img/New_account_page.png)
+![New_account_page](img/wireframes/New_account_page.png)
 
 
-### Tela - Home-usuário-Page
+### Tela Home com usuário ativo
 
 Tela que terá o cabelhado alterado após o usuário realizar seu log in no site.
 
-![Home_with_user_logged_in](img/Home_with_user_logged_in.png)
+![Home_with_user_logged_in](img/wireframes/Home_with_user_logged_in.png)
 
 
-### Tela Nova_Notícia-Page
+### Tela para nova notícia
 
 Tela onde o usuário depois de ter realizado seu log in no site terá acesso e poderá enviar sua nótica para o portal.
 
-![Submit_page](img/Submit_page.png)
+![Submit_page](img/wireframes/Submit_page.png)
 
 
-### Tela Home_news-Page
+### Tela Home com nova notícia
 
 Tela final onde a nóticia que o usuário enviou e foi aceita será exibida.
 
-![Home_with_news](img/Home_with_news.png)
+![Home_with_news](img/wireframes/Home_with_news.png)
