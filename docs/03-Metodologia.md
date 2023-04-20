@@ -23,12 +23,12 @@ A distribuição da equipe foi feita da seguinte forma:
 ## 2. Ferramentas
 ___
 Os artefatos no projeto são desenvolvidos utilizando diversas plataformas e a relação de cada ambiente ao seu propósito é apresentada da seguinte forma:
-| Ambiente | Plataforma | Link de Acesso |
-|--------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte | GitHub | [Repositório Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time4-portalnoticias) |
-| Documentos do projeto | GitHub | [Repositório Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time4-portalnoticias) |
-| Projeto de interface | Figma | [Wireframe](https://www.figma.com/proto/tA1e1KaNdzU4UhxvCVDUpj/projeto_front_end_puc_wireframe_ads1?page-id=1%3A401&node-id=1-550&starting-point-node-id=1%3A550) |
-| Gerenciamento do Projeto | GitHub | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/421) |
+| Ambiente                    | Plataforma  | Link de Acesso          |
+|---------------------------- | ----------  | ----------------------- |
+| Repositório de código fonte | GitHub      | [Repositório Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time4-portalnoticias)  |
+| Documentos do projeto       | GitHub      | [Repositório Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time4-portalnoticias)  |
+| Projeto de interface        | Figma       | [Wireframe](https://www.figma.com/proto/tA1e1KaNdzU4UhxvCVDUpj/projeto_front_end_puc_wireframe_ads1?page-id=1%3A401&node-id=1-550&starting-point-node-id=1%3A550)                         |
+| Gerenciamento do Projeto    | GitHub      | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/421)                  |
 <br />
 
 ## 3. Processos
