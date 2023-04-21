@@ -1,6 +1,6 @@
 # Metodologia
 
-A Metodologia é uma das partes mais importantes de um projeto. Pensando nisso, a equipe utiliza o Scrum como método base para desenvolvimento do projeto e divisão de artefatos. Também são utilizadas outras ferramentas como o **GitHub** e **Figma**. Sendo elas pensadas com o intuito de deixar organizado e pratico.
+A Metodologia é uma das partes mais importantes de um projeto. Pensando nisso, a equipe utiliza o Scrum como método base para desenvolvimento do projeto e divisão de artefatos. Também são utilizadas outras ferramentas como o **GitHub** e **Figma**. Sendo elas pensadas com o intuito de deixar organizado e prático.
 
 <br />
 
@@ -50,11 +50,11 @@ ___
   - Problemas
   - Objetivos
   - Justificativa
-  - Publico-alvo
+  - Público-alvo
 - Especificação do Projeto
   - Personas
   - História do Usuário
-  - Requesitos do Sistema: Funcionais, não funcionais e restrições.
+  - Requisitos do Sistema: Funcionais, não funcionais e restrições.
 
 ### 3.2.1 Planejamento:
 <br />
@@ -67,7 +67,7 @@ ___
 | Tarefa | Responsável |
 | ------ | ----------- | 
 | Documentação do Contexto | Wilian Pereira |
-| Especificação do Projeto | Pedro Aguiar |
+| Especificação do Projeto | Pedro Aguilar |
 <br />
 
 ### 3.2.3 Evidências:
