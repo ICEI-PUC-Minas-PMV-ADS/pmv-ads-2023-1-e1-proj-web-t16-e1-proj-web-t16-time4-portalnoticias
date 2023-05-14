@@ -1,54 +1,32 @@
-# Agregador de Notícias
+"# tech-news-front-back" 
 
-`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`Desenvolvimento de Aplicação Web Front-End`
+node ace serve --watch ----> comando que liga o servidor back end e o Banco de dados MYSQL (Executar dentro do diretorio adonis -> BackEND)
 
-`2023/1`
+INSTRUÇÂO:
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+1- Criar um arquivo "solto" na pasta adonis(backend) com o nome .env
 
-## Integrantes
+2 - No .env dar Ctrl+C em:
 
-* João Ricardo Ferreira Góis
-* Luca Barbosa Muller
-* Pablo Matoso Nunes
-* Pedro Henrique Aguilar de Almeida
-* Pedro Henrique Batista Costa
-* Willian Pereira de Aquino Júnior
+PORT=3333
+HOST=0.0.0.0
+NODE_ENV=development
+APP_KEY=Im097Yj68tpyC93AwTVJhjzbqULx_wnV
+DRIVE_DISK=local
+DB_CONNECTION=mysql
+MYSQL_HOST=127.0.0.1
+MYSQL_PORT=3306
+MYSQL_USER=root
+MYSQL_PASSWORD=root
+MYSQL_DB_NAME=tech-news
+CACHE_VIEWS=false
 
-## Orientador
 
-* Wagner Cipriano da Silva
+3 - Salvar e após isso o comando "node ace serve --watch" ira funcionar!
 
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
-# Documentação
-
-<ol>
-<li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
-<li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
-<li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
-<li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
-<li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
-<li><a href="docs/06-Template padrão do Site.md"> Template padrão do Site</a></li>
-<li><a href="docs/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
-<li><a href="docs/08-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
-<li><a href="docs/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="docs/10-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
-<li><a href="docs/11-Referências.md"> Referências</a></li>
-</ol>
-
-# Hospedagem
-
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
-
-# Armazenamento do Código-Fonte
-
-* <a href="src/README.md">Código Fonte</a>
-
-# Armazenamento da Apresentação
-
-* <a href="presentation/README.md">Apresentação da solução</a>
+4 - CRIANDO O BANCO:
+4.1 - Instalar o MySQL Server na maquina
+4.2 - Na conexão com o MySQL, utilizar a HOST e a PORT que estão no .env (caso contrario dara erro de conexão)
+4.3 - Achar a OPCAO DE CRIAR BANCO, e UTILIZAR NOME E SENHA IGUAIS A DO ARQUIVO .env
+4.4 - Após logado no banco pelo MySQL, rodar o comando do servidor que o Banco de dados será construído
