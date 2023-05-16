@@ -30,7 +30,7 @@ form.addEventListener("submit", (e) => {
     .then((_data) => {
       // TODO conversar com o cumpade oshito sobre o local storage.
       form.reset();
-      window.location.href = "index.html";
+      window.location.href = "./index.html";
     })
     .catch((_error) => {
       alert("Email ou senha incorreta ⚠");

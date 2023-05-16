@@ -13,11 +13,11 @@ form.addEventListener("submit", (e) => {
     url: url,
     image: "https://source.unsplash.com/random/?technology",
     createdAt: new Date().toISOString(),
-    userId: 1 // TODO localStorage.getItem("user_id")
+    userId: 2 // TODO localStorage.getItem("user_id")
   };
 
   // Send a POST request to add the new news object to the db.json file
-  fetch("http://localhost:3000/news", {
+  fetch("http://localhost:3000/600/news", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
