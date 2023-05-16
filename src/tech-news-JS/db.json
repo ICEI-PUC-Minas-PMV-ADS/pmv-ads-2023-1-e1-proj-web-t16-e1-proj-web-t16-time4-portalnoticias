@@ -1,0 +1,42 @@
+{
+  "news": [
+    {
+      "title": "Investigating Linux Phantom Disk Reads",
+      "url": "https://questdb.io/blog/investigating-linux-phantom-disk-reads/",
+      "image": "https://source.unsplash.com/random/?technology",
+      "createdAt": "2023-04-07T16:42:21.461Z",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "title": "Jsonformer: A Bulletproof Way to Generate Structured JSON from Language Models",
+      "url": "https://github.com/1rgs/jsonformer",
+      "image": "https://source.unsplash.com/random/?random",
+      "createdAt": "2023-04-08T16:42:21.461Z",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "title": "ARM or x86? ISA Doesn’t Matter",
+      "url": "https://chipsandcheese.com/2021/07/13/arm-or-x86-isa-doesnt-matter/",
+      "image": "https://source.unsplash.com/random/?technology",
+      "createdAt": "2023-05-16T22:26:34.653Z",
+      "userId": 1,
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "name": "Pedro",
+      "email": "pedro@test.com",
+      "password": "$2a$10$F.lG0ihJZWmV9CDExtFBIO60d9wZ0gGpVkM5m48KIZulJTXm4De2G",
+      "id": 1
+    },
+    {
+      "email": "wagner@test.com",
+      "password": "$2a$10$sQaMnUxndyXSUkroNQ7EIuH0ajeCO2l/A7.YBiaqZGZAWGRboXjXK",
+      "name": "Wagner",
+      "id": 2
+    }
+  ]
+}
