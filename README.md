@@ -12,7 +12,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * João Ricardo Ferreira Góis
 * Luca Barbosa Muller
-* Pablo Matoso Nunes
 * Pedro Henrique Aguilar de Almeida
 * Pedro Henrique Batista Costa
 * Willian Pereira de Aquino Júnior
