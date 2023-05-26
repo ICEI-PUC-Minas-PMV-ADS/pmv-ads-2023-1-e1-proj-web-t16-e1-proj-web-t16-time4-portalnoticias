@@ -1,6 +1,9 @@
 html {
   font-family: Roboto;
 }
+.input-group {
+  text-align: center;
+}
 
 .card-news {
   overflow: hidden;
@@ -80,6 +83,10 @@ html {
   margin-left: 8px;
 }
 
+#search {
+  margin-right: .2rem;
+}
+
 /* Smallest device */
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
@@ -114,8 +121,3 @@ html {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-
-/* add_news
-.container{
-  margin-top: 100px;
-} */
