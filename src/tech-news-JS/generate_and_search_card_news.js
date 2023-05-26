@@ -20,6 +20,14 @@ document.addEventListener('DOMContentLoaded', function () {
   // Add event listener to the search button
   searchButton.addEventListener('click', performSearch);
 
+  // Add event listener to the search input for the 'keypress' event
+  searchInput.addEventListener('keypress', function (event) {
+    // Check if the Enter key was pressed (key code 13)
+    if (event.keyCode === 13) {
+      performSearch();
+    }
+  });
+
   function performSearch() {
     let query = searchInput.value.trim().toLowerCase();
 
