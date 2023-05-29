@@ -1,19 +1,16 @@
 const form = document.getElementById("add-form");
 
 form.addEventListener("submit", (e) => {
-  e.preventDefault(); // Prevent the form from submitting and reloading the page
+  e.preventDefault(); 
 
-  // Get the input values from the form
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
-  // Create a new news object
   const user = {
     email,
     password,
   };
 
-  // Send a POST request to add the new news object to the db.json file
   fetch("http://localhost:3000/login", {
     method: "POST",
     headers: {

@@ -1,12 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
-  // Get references to the search input and search button
+  // Obter os dados para o campo de busca
   let searchInput = document.getElementById('search');
   let searchButton = document.getElementById('buttonSearch');
 
-  // Store the original news items
   let originalNewsItems = [];
 
-  // Fetch news items and populate the page
+  // Recuperar os itens de notícias e preencher a página
   fetch('http://localhost:3000/news/?_expand=user&_sort=createdAt&_order=desc')
     .then(response => response.json())
     .then(news => {
@@ -17,12 +16,12 @@ document.addEventListener('DOMContentLoaded', function () {
       console.error(error);
     });
 
-  // Add event listener to the search button
+  // Adicionar um listener de evento ao botão de busca
   searchButton.addEventListener('click', performSearch);
 
-  // Add event listener to the search input for the 'keypress' event
+  // Realizar pesquisa pela tecla enter
   searchInput.addEventListener('keypress', function (event) {
-    // Check if the Enter key was pressed (key code 13)
+
     if (event.keyCode === 13) {
       performSearch();
     }
@@ -31,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function performSearch() {
     let query = searchInput.value.trim().toLowerCase();
 
-    // Clear previous search results
+    // Limpar resultados da busca anterior
     let searchResults = document.querySelector('.cards');
     searchResults.innerHTML = '';
 
