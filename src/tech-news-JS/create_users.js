@@ -31,7 +31,10 @@ form.addEventListener("submit", (e) => {
     })
     .then((_data) => {
       alert("Usuário criado com sucesso 👍");
+      localStorage.setItem('token', _data.accessToken); // Guarda o token no local storage
+      localStorage.setItem('username', _data.user.name); // Guarda o username no local storage
       form.reset();
+      window.location.href = "index.html";
     })
     .catch((_error) => {
       alert("Erro ao criar o usuário ⚠");

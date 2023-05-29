@@ -15,12 +15,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
   <link rel="stylesheet" href="./style.css">
   <title>Tech News - Nova Notícia</title>
 </head>
 
 <body>
-  <!--header-->
   <header>
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
@@ -29,17 +30,14 @@
             <img src="./images/logo.png" alt="Logo Tech News" width="128">
           </a>
         </span>
-        <div>
-          <span>
-            <!-- TODO adicionar local storage -->
-            Olá Pedro
-          </span>
-          <button type="button" class="btn btn-danger">Sair</button>
+        <div class="user_login">
+          <span id="username"></span> <!-- Nome do usuário -->
+          <button id="logoutButton" type="button" class="btn btn-danger">Logout</button> <!-- Logout button -->
         </div>
       </div>
     </nav>
   </header>
-<!--adicionar notícia-->
+
   <div class="container">
     <div id="add-row" class="row justify-content-center align-items-center mt-4">
       <div id="add-column" class="col-md-6">
@@ -63,7 +61,9 @@
     </div>
   </div>
 
+  <script src="handleUserLoggedIn.js"></script>
   <script src="generate_news.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
     integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
     crossorigin="anonymous"></script>

@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let likeButton = document.createElement('button');
     likeButton.classList.add('like-button');
     let likeIcon = document.createElement('i');
-    likeIcon.classList.add('fas', 'fa-thumbs-up');
+    likeIcon.classList.add('fas', 'fa-heart');
     likeButton.appendChild(likeIcon);
     cardNewsInfos.appendChild(likeButton);
 

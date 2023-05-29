@@ -32,19 +32,19 @@
         </span>
 
         <div class="user_login">
-          <span>
-            <!-- TODO adicionar local storage -->
-            Olá Pedro
-          </span>
-          <button type="button" class="btn btn-danger">Sair</button>
+          <span id="username"></span> <!-- Nome do usuário -->
+          <button id="logoutButton" type="button" class="btn btn-danger">
+            Logout
+          </button> <!-- Logout button -->
         </div>
       </div>
     </nav>
   </header>
 
-<!-- botão de pesquisa -->
+  <!-- botão de pesquisa -->
   <div class="form-group d-flex justify-content-center">
-  <input id="search" type="search" class="form-control rounded w-25 mt-2" placeholder="Buscar Notícia" aria-label="Search" aria-describedby="search-addon" />
+    <input id="search" type="search" class="form-control rounded w-25 mt-2" placeholder="Buscar Notícia"
+      aria-label="Search" aria-describedby="search-addon" />
     <button id="buttonSearch" class="btn btn-primary mt-2" type="button">
       <i class="fas fa-search"></i>
     </button>
@@ -53,24 +53,29 @@
   <main class="container">
     <div class="d-flex justify-content-between my-4">
       <a href="add_news.html">
-        <button type="button" class="btn btn-primary">Nova notícia</button>
+        <button id="novaNoticiaButton" type="button" class="btn btn-primary">
+          Nova notícia
+        </button> <!-- Nova notícia button -->
       </a>
       <a href="./login.html">
-        <button type="button" class="btn btn-primary">Faça seu Log In</button>
+        <button id="loginButton" type="button" class="btn btn-primary">
+          Faça seu Log In
+        </button>
       </a>
     </div>
     <!-- Popula dinamicamente usando JS -->
     <div class="cards"></div>
   </main>
 
+  <!-- scripts -->
+  <script src="handleUserLoggedIn.js"></script>
   <script src="generate_and_search_card_news.js"></script>
-  <!-- <script src="generate_card_news.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-    crossorigin="anonymous"></script>
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous">
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-    crossorigin="anonymous"></script>
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
