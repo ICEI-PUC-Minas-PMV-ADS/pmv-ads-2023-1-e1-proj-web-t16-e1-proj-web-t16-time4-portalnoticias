@@ -1,6 +1,13 @@
 html {
   font-family: Roboto;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 .input-group {
   text-align: center;
 }
@@ -46,7 +53,7 @@ html {
   grid-gap: 16px;
 }
 
-/* Likes button */
+/* botão de like */
 .like-button {
   background-color: #fff;
   border: 1px solid #0d6efd;
@@ -87,35 +94,35 @@ html {
   margin-right: .2rem;
 }
 
-/* Smallest device */
+/* Dispositivos menores */
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
   }
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* Dispositivos pequenos (576px ou mais) */
 @media (min-width: 576px) {
   .cards {
     grid-template-columns: 1fr;
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Dispositivos médios (768px ou mais) */
 @media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/* Large devices (desktops, 992px and up) */
+/* Dispositivos grandes (992px ou mais) */
 @media (min-width: 992px) {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Dispositivos muito grandes (1200px ou mais) */
 @media (min-width: 1200px) {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;

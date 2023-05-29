@@ -1,24 +1,21 @@
 window.onload = function () {
-  // Get a reference to the container where the cards will be added
   const container = document.querySelector('.cards');
 
   // TODO: Ler dados da API usando fetch.
   fetch('http://localhost:3000/news/?_expand=user&_sort=createdAt&_order=desc')
     .then(response => response.json())
     .then(news => {
-      // Loop through the news array and create a card for each news item
+      // Percorra o array de notícias e crie um cartão para cada item de notícia
       news.forEach(newsItem => {
-        // Create the card element
+        // Cria o elemento card-news
         console.log(newsItem)
         const card = document.createElement('div');
         card.classList.add('card-news');
 
-        // Create the image element and set its attributes
         const image = document.createElement('img');
         image.setAttribute('src', newsItem.image);
         card.appendChild(image);
 
-        // Create the card-news-infos element and add the news item's title and sharedBy properties
         const cardNewsInfos = document.createElement('div');
         cardNewsInfos.classList.add('card-news-infos');
 
@@ -34,7 +31,7 @@ window.onload = function () {
         sharedBy.textContent = `Compartilhado por ${newsItem.user.name}`;
         cardNewsInfos.appendChild(sharedBy);
 
-        // Create the like button
+        // Cria o botão de like
         const likeButton = document.createElement('button');
         likeButton.classList.add('like-button');
         const likeIcon = document.createElement('i');
@@ -44,11 +41,11 @@ window.onload = function () {
 
         card.appendChild(cardNewsInfos);
 
-        // Add the card to the container
+        // Adiciona o card ao container
         container.appendChild(card);
       });
 
-      // Botão de curtida
+      // Botão de like
       const likeButtons = document.querySelectorAll('.like-button');
       let clicked = false;
 

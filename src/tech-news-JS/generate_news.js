@@ -1,13 +1,11 @@
 const form = document.getElementById("add-form");
 
 form.addEventListener("submit", (e) => {
-  e.preventDefault(); // Prevent the form from submitting and reloading the page
+  e.preventDefault(); 
 
-  // Get the input values from the form
   const title = document.getElementById("title").value;
   const url = document.getElementById("link").value;
 
-  // Create a new news object
   const newNews = {
     title: title,
     url: url,
@@ -16,7 +14,6 @@ form.addEventListener("submit", (e) => {
     userId: 1 // TODO localStorage.getItem("user_id")
   };
 
-  // Send a POST request to add the new news object to the db.json file
   fetch("http://localhost:3000/news", {
     method: "POST",
     headers: {
