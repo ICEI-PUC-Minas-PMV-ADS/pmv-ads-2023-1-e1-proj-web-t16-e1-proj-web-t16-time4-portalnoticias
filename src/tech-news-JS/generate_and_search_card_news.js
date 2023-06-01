@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
   let searchButton = document.getElementById('buttonSearch');
 
   let originalNewsItems = [];
-
   // Recuperar os itens de notícias e preencher a página
   fetch('http://localhost:3000/news/?_expand=user&_sort=createdAt&_order=desc')
     .then(response => response.json())
@@ -34,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
     let searchResults = document.querySelector('.cards');
     searchResults.innerHTML = '';
 
-    // Perform search logic here
     let matchingNewsItems = originalNewsItems.filter(function (newsItem) {
       let title = newsItem.title.toLowerCase();
       let sharedBy = newsItem.user.name.toLowerCase();
@@ -47,9 +45,12 @@ document.addEventListener('DOMContentLoaded', function () {
   function populateNewsItems(newsItems) {
     let container = document.querySelector('.cards');
     container.innerHTML = '';
-
+  
     newsItems.forEach(function (newsItem) {
       let card = createCard(newsItem);
+      if (document.body.classList.contains('dark')) {
+        card.classList.add('dark');
+      }
       container.appendChild(card);
     });
   }

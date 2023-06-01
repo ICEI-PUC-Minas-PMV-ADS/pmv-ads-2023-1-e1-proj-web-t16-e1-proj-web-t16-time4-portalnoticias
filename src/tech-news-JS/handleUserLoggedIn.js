@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
       usernameElement.textContent = '';
     }
   } else {
-    // Página sem o botão "Nova Nótica"
+    // Página sem o botão "Nova Notícia"
     if (token) {
       // Usuário logado
       logoutButton.style.display = 'block';
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Butão Logout
+  // Botão Logout
   logoutButton.addEventListener('click', function () {
     localStorage.removeItem('token'); // Remove o token do local storage
     localStorage.removeItem('username'); // Remove username do local storage
