@@ -2,10 +2,15 @@ html {
   font-family: Roboto;
 }
 
+nav {
+  background-color: #f2f2f2; /* Cor padrão do header */
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: #fff;
 }
 
 .input-group {
@@ -89,6 +94,89 @@ body {
 
 #search {
   margin-right: .2rem;
+}
+
+/*Tema escuro*/
+nav.dark {
+  background: #273d6d; 
+}
+
+body.dark {
+  background: #141e30;
+}
+
+input.dark {
+  background: #545861;
+  color: #fff;
+}
+
+.dark #search::placeholder {
+  color: #fff;
+}
+
+.card-news.dark {
+  background-color: #333333; 
+  color: #ffffff; 
+}
+
+.dark .login-field {
+  background-color: #545861;
+  color: #ffffff;
+}
+
+.dark .login-label {
+  color: #ffffff;
+}
+
+.dark .username {
+  color: #fff;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+
+}
+
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
 }
 
 /* Dispositivos menores */
