@@ -94,6 +94,24 @@ body {
 
 #search {
   margin-right: .2rem;
+  margin-left: .2rem;
+}
+
+/* Tags */
+#tagContainer {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  gap: 0.2rem;
+}
+
+#tag {
+  border-radius: 6px;
+  border: solid 2px #E4E8EB;
+}
+
+#tagFilter {
+  color: #595C5F;
 }
 
 /*Tema escuro*/
@@ -153,7 +171,6 @@ input.dark {
   transform: scale(1.5);
 
 }
-
 
 .label .ball {
   background-color: #fff;

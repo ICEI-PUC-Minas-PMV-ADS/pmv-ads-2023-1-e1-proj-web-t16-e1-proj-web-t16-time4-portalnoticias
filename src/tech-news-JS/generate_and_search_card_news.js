@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-  // Obter os dados para o campo de busca
   let searchInput = document.getElementById('search');
   let searchButton = document.getElementById('buttonSearch');
+  let tagFilterSelect = document.getElementById('tagFilter');
 
   let originalNewsItems = [];
-  // Recuperar os itens de notícias e preencher a página
+
   fetch('http://localhost:3000/news/?_expand=user&_sort=createdAt&_order=desc')
     .then(response => response.json())
     .then(news => {
@@ -15,28 +15,32 @@ document.addEventListener('DOMContentLoaded', function () {
       console.error(error);
     });
 
-  // Adicionar um listener de evento ao botão de busca
   searchButton.addEventListener('click', performSearch);
 
-  // Realizar pesquisa pela tecla enter
   searchInput.addEventListener('keypress', function (event) {
-
     if (event.keyCode === 13) {
       performSearch();
     }
   });
 
+  tagFilterSelect.addEventListener('change', performSearch);
+
   function performSearch() {
     let query = searchInput.value.trim().toLowerCase();
+    let tagFilter = tagFilterSelect.value.toLowerCase();
 
-    // Limpar resultados da busca anterior
     let searchResults = document.querySelector('.cards');
     searchResults.innerHTML = '';
 
     let matchingNewsItems = originalNewsItems.filter(function (newsItem) {
       let title = newsItem.title.toLowerCase();
       let sharedBy = newsItem.user.name.toLowerCase();
-      return title.includes(query) || sharedBy.includes(query);
+      let tag = newsItem.tag.toLowerCase();
+
+      let matchesQuery = title.includes(query) || sharedBy.includes(query);
+      let matchesTagFilter = tagFilter === '' || tag === tagFilter;
+
+      return matchesQuery && matchesTagFilter;
     });
 
     populateNewsItems(matchingNewsItems);
@@ -45,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function populateNewsItems(newsItems) {
     let container = document.querySelector('.cards');
     container.innerHTML = '';
-  
+
     newsItems.forEach(function (newsItem) {
       let card = createCard(newsItem);
       if (document.body.classList.contains('dark')) {
@@ -77,6 +81,10 @@ document.addEventListener('DOMContentLoaded', function () {
     let sharedBy = document.createElement('p');
     sharedBy.textContent = 'Compartilhado por ' + newsItem.user.name;
     cardNewsInfos.appendChild(sharedBy);
+
+    let tag = document.createElement('p');
+    tag.textContent = newsItem.tag;
+    cardNewsInfos.appendChild(tag);
 
     let likeButton = document.createElement('button');
     likeButton.classList.add('like-button');
