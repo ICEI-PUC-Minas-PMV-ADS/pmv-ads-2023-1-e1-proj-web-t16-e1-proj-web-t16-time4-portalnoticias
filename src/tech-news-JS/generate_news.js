@@ -6,12 +6,14 @@ form.addEventListener("submit", (e) => {
 
   const title = document.getElementById("title").value;
   const url = document.getElementById("link").value;
+  const tag = document.getElementById("tag").value;
 
   const newNews = {
     title: title,
     url: url,
     image: "https://source.unsplash.com/random/?technology",
     createdAt: new Date().toISOString(),
+    tag: tag,
     userId: id
   };
 
