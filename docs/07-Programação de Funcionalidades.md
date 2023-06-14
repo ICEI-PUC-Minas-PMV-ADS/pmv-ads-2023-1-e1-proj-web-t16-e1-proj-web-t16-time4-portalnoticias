@@ -20,6 +20,27 @@ A tela principal do site exibe as notícias mais recentes que foram postadas. Ao
 
 - style.css (Pedro Batista, Pedro Aguilar, João Ricardo)
 
+### Estrutura de Dados
+
+```
+  <main class="container">
+    <div class="d-flex justify-content-between my-4">
+      <a href="add_news.html">
+        <button id="novaNoticiaButton" type="button" class="btn btn-primary">
+          Nova notícia
+        </button> <!-- Nova notícia button -->
+      </a>
+      <a href="./login.html">
+        <button id="loginButton" type="button" class="btn btn-primary">
+          Faça seu Log In
+        </button>
+      </a>
+    </div>
+    <!-- Popula dinamicamente usando JS -->
+    <div class="cards"></div>
+  </main>
+```
+
 
 # Filtro de Notícias (RF-002)
 
