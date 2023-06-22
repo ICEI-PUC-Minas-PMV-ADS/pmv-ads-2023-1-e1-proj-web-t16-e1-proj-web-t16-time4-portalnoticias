@@ -28,31 +28,58 @@
       "id": 3
     },
     {
-      "title": "a",
-      "url": "b",
+      "title": "Ubisoft teases VR version of hit game 'Assassin's Creed'",
+      "url": "https://techxplore.com/news/2023-06-ubisoft-vr-version-game-assassin.html",
       "image": "https://source.unsplash.com/random/?technology",
-      "createdAt": "2023-06-08T21:24:30.040Z",
-      "tag": "Hardware",
+      "createdAt": "2023-06-15T14:40:18.991Z",
+      "tag": "Software",
       "userId": "1",
-      "id": 4
+      "id": 7
     },
     {
-      "title": "c",
-      "url": "d",
+      "title": "AI For Youth: Intel traz programa que ensina inteligência artificial para jovens ao Brasil",
+      "url": "https://www.tudocelular.com/mercado/noticias/n207536/intel-projeto-inteligencia-artificial-brasil-etec.html",
       "image": "https://source.unsplash.com/random/?technology",
-      "createdAt": "2023-06-08T21:32:31.565Z",
-      "tag": "Hardware",
-      "userId": "1",
-      "id": 5
-    },
-    {
-      "title": "bb",
-      "url": "vv",
-      "image": "https://source.unsplash.com/random/?technology",
-      "createdAt": "2023-06-08T22:17:40.335Z",
+      "createdAt": "2023-06-15T20:07:20.815Z",
       "tag": "AI",
-      "userId": "2",
-      "id": 6
+      "userId": "1",
+      "id": 8
+    },
+    {
+      "title": "Windows 11 preview is good news for gamers – but bad news for everyone else",
+      "url": "https://www.techradar.com/computing/windows/windows-11-preview-is-good-news-for-gamers-but-bad-news-for-everyone-else",
+      "image": "https://source.unsplash.com/random/?technology",
+      "createdAt": "2023-06-22T15:10:01.764Z",
+      "tag": "Software",
+      "userId": "1",
+      "id": 9
+    },
+    {
+      "title": "Singapore is not looking to regulate A.I. just yet, says the city-state’s authority",
+      "url": "https://www.cnbc.com/2023/06/19/singapore-is-not-looking-to-regulate-ai-just-yet-says-the-city-state.html",
+      "image": "https://source.unsplash.com/random/?technology",
+      "createdAt": "2023-06-22T15:12:09.014Z",
+      "tag": "AI",
+      "userId": "1",
+      "id": 10
+    },
+    {
+      "title": "Google accuses Microsoft of unfair practices in Azure cloud unit",
+      "url": "https://www.cnbc.com/2023/06/21/google-accuses-microsoft-of-anticompetitive-practices-in-azure-cloud.html",
+      "image": "https://source.unsplash.com/random/?technology",
+      "createdAt": "2023-06-22T15:12:33.093Z",
+      "tag": "Software",
+      "userId": "1",
+      "id": 11
+    },
+    {
+      "title": "Biden to meet with A.I. experts in San Francisco",
+      "url": "https://www.cnbc.com/2023/06/20/biden-to-meet-with-ai-experts-in-san-francisco.html",
+      "image": "https://source.unsplash.com/random/?technology",
+      "createdAt": "2023-06-22T15:12:46.787Z",
+      "tag": "AI",
+      "userId": "1",
+      "id": 12
     }
   ],
   "users": [
