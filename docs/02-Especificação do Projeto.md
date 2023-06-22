@@ -52,8 +52,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| O usuário deve ser capaz de alimentar o site com notícias de sua preferência | ALTA |
 |RF-005| O site deve ter um sistema de "tags"  | BAIXA |
 |RF-006| O site deve exibir o usuário que postou a notícia  | MÉDIA |
-|RF-007| Sistema de "Mais lidos da semana"  | MÉDIA |
-|RF-008| O site deve ter um sistema de recomendação, de acordo com as notícias que o usuário consome  | BAIXA |
 
 ### Requisitos não Funcionais
 
