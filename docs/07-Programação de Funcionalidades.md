@@ -16,29 +16,22 @@ A tela principal do site exibe as notícias mais recentes que foram postadas. Ao
 
 - generate_and_search_card_news.js (Pedro Batista, Pedro Aguilar)
 
-- db.json (Pedro Batista, Luca Barbosa)
+- db.json (Pedro Batista)
 
 - style.css (Pedro Batista, Pedro Aguilar, João Ricardo)
 
 ### Estrutura de Dados
 
 ```
-  <main class="container">
-    <div class="d-flex justify-content-between my-4">
-      <a href="add_news.html">
-        <button id="novaNoticiaButton" type="button" class="btn btn-primary">
-          Nova notícia
-        </button> <!-- Nova notícia button -->
-      </a>
-      <a href="./login.html">
-        <button id="loginButton" type="button" class="btn btn-primary">
-          Faça seu Log In
-        </button>
-      </a>
-    </div>
-    <!-- Popula dinamicamente usando JS -->
-    <div class="cards"></div>
-  </main>
+{
+      "title": "Investigating Linux Phantom Disk Reads",
+      "url": "https://questdb.io/blog/investigating-linux-phantom-disk-reads/",
+      "image": "https://source.unsplash.com/random/?technology",
+      "createdAt": "2023-04-07T16:42:21.461Z",
+      "tag": "Hardware",
+      "userId": 1,
+      "id": 1
+    },
 ```
 
 
@@ -54,9 +47,9 @@ A tela principal apresenta uma caixa de busca, aonde o usuário pode digitar um 
 
 - generate_and_search_card_news.js (Pedro Batista, Pedro Aguilar)
 
-- db.json (Pedro Batista, Luca Barbosa)
+- db.json (Pedro Batista)
 
-- style.css (Pedro Batista, Pedro Aguilar, João Ricardo)
+- style.css (Pedro Batista, Pedro Aguilar)
 
 ### Estrutura de Dados
 
@@ -87,9 +80,9 @@ Criando uma conta e logando na mesma, os usuários podem adicionar novas notíci
 
 - generate_and_search_card_news.js (Pedro Batista, Pedro Aguilar)
 
-- db.json (Pedro Batista, Luca Barbosa)
+- db.json (Pedro Batista)
 
-- style.css (Pedro Batista, Pedro Aguilar, João Ricardo)
+- style.css (Pedro Batista, Pedro Aguilar)
 
 - create_user.js (Pedro Batista)
 
@@ -122,9 +115,9 @@ Nos cards de notícia, gerados dinamicamente, é exibido o nome do usuário resp
 
 - generate_and_search_card_news.js (Pedro Batista, Pedro Aguilar)
 
-- db.json (Pedro Batista, Luca Barbosa)
+- db.json (Pedro Batista)
 
-- style.css (Pedro Batista, Pedro Aguilar, João Ricardo)
+- style.css (Pedro Batista, Pedro Aguilar)
 
 - create_user.js (Pedro Batista, Willian Pereira)
 
