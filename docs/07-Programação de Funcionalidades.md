@@ -18,7 +18,7 @@ A tela principal do site exibe as notícias mais recentes que foram postadas. Ao
 
 - db.json (Pedro Batista)
 
-- style.css (Pedro Batista, Pedro Aguilar, João Ricardo)
+- style.css (Pedro Batista, Pedro Aguilar)
 
 ### Estrutura de Dados
 
